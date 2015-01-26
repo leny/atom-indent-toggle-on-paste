@@ -7,8 +7,8 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.platform-linux .editor:not(.mini), .platform-win32 .editor:not(.mini)':
+'.platform-linux atom-text-editor:not(.mini), .platform-win32 atom-text-editor:not(.mini)':
   'ctrl-shift-v': 'indent-toggle-on-paste:paste'
 
-'.platform-darwin .editor:not(.mini)':
+'.platform-darwin atom-text-editor:not(.mini)':
   'cmd-shift-v': 'indent-toggle-on-paste:paste'

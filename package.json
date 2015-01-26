@@ -9,7 +9,7 @@
   "repository": "https://github.com/leny/atom-indent-toggle-on-paste",
   "license": "MIT",
   "engines": {
-    "atom": ">0.158.0"
+    "atom": ">0.170.0"
   },
   "dependencies": {}
 }
