@@ -1,7 +1,7 @@
 {
   "name": "indent-toggle-on-paste",
   "main": "./lib/indent-toggle-on-paste",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add a shortcut to toggle the auto-indent mecanism on paste",
   "activationEvents": [
     "indent-toggle-on-paste:paste"
