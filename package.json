@@ -3,13 +3,13 @@
   "main": "./lib/indent-toggle-on-paste",
   "version": "0.1.1",
   "description": "Add a shortcut to toggle the auto-indent mecanism on paste",
-  "activationEvents": [
-    "indent-toggle-on-paste:paste"
-  ],
+  "activationCommands": {
+    "atom-text-editor:not([mini])": [ "indent-toggle-on-paste:paste" ]
+  },
   "repository": "https://github.com/leny/atom-indent-toggle-on-paste",
   "license": "MIT",
   "engines": {
-    "atom": ">0.170.0"
+    "atom": ">0.199.0"
   },
   "dependencies": {}
 }
