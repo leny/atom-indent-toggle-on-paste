@@ -1,7 +1,7 @@
 {
   "name": "indent-toggle-on-paste",
   "main": "./lib/indent-toggle-on-paste",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Add a shortcut to toggle the auto-indent mecanism on paste",
   "activationCommands": {
     "atom-text-editor:not([mini])": [
